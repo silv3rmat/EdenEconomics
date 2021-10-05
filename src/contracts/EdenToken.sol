@@ -1,9 +1,9 @@
 pragma solidity ^0.5.0;
 
-contract DaiToken {
-    string  public name = "Mock DAI Token";
-    string  public symbol = "mDAI";
-    uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
+contract EdenToken {
+    string  public name = "Eden Token";
+    string  public symbol = "EDEN";
+    uint256 public totalSupply = 1000000 * 10**18; // 1 million tokens
     uint8   public decimals = 18;
 
     event Transfer(
